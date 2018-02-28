@@ -66,3 +66,14 @@ textarea {
 textarea:focus {
     border: 2px solid rgb(31, 61, 91);
 }
+
+@media only screen and (max-width:750px) {
+    .container {
+        flex-direction: column;
+        width: 100%
+    }
+
+    .container-left, .container-middle, .container-right {
+        width: auto;
+    }
+}
