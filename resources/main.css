@@ -1,0 +1,14 @@
+body {
+    background: rgb(91, 162, 213);
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    color: #fff;
+}
+
+input {
+    background: rgb(91, 162, 213);
+    outline: 0;
+}
