@@ -1,3 +1,5 @@
+![Responsive Form](./resources/form-complete.png)
+
 ## You Should Know
 - HTML
 - CSS Layout
