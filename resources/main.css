@@ -3,12 +3,66 @@ body {
 }
 
 .container {
-    width: 400px;
-    height: 600px;
+    display: flex;
+    justify-content: space-around;
     color: #fff;
+}
+
+.container-left, .container-middle, .container-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 15px;
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    outline: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+form {
+    width: 100%;
+}
+
+.form-title {
+    padding: 5px 0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 input {
     background: rgb(91, 162, 213);
-    outline: 0;
+    border: 2px solid #fff;
+    padding: 8px 0 8px 4px;
+}
+
+input:focus {
+    border: 2px solid rgb(31, 61, 91);
+}
+
+::placeholder {
+    font-style: italic;
+    font-size: 12px;
+}
+
+select {
+    color: #fff;
+    height: 25px;
+    padding: 0 2px;
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+textarea {
+    height: 100px;
+    padding: 0 2px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+textarea:focus {
+    border: 2px solid rgb(31, 61, 91);
 }

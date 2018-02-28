@@ -9,27 +9,60 @@
     <link href="./resources/reset.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
+    <form action="index.html">
     <div class="container">
-        <div class="container-left">
-            <form>
-                <p>First name</p>
-                <input type="text" placeholder="first name"/>
-                <p>Last name</p>
-                <input type="text" placeholder="last name" />
-                <p>Email address</p>
-                <input tyoe="text" placeholder="email" />
+            <div class="container-left">
+                <p class="form-title">First name</p>
+                <input type="text" placeholder="Johnny" required/>
+                <p class="form-title">Last name</p>
+                <input type="text" placeholder="Chainsaw" required/>
+                <p class="form-title">Email address</p>
+                <input tyoe="email" placeholder="Jchainsaw@client.com" required/>
+                <p class="form-title">Country</p>
                 <select name="">
+                    <option value="" selected>Choose a country</option>
                     <option value="">U.S.A.</option>
                     <option value="">not U.S.A.</option>
+                    <option value="">Chainsallston</option>
                 </select>
-            </form>
+                <p class="form-title">Biography</p>
+                <textarea width="100%" height="80px"></textarea>
+            </div>
+            <div class="container-middle">
+                <p class="form-title">Phone number</p>
+                <input type="text" placeholder="ex. 123.456.7890" required/>
+                <p class="form-title">Affiliations</p>
+                <textarea width="100%" height="80px"></textarea>
+                <p class="form-title">Occupation</p>
+                <select name="">
+                    <option value="" selected>Choose an occupation</option>
+                    <option value="">work</option>
+                    <option value="">chill</option>
+                    <option value="">saw</option>
+                </select>
+                <p class="form-title">Cat's name</p>
+                <input type="text" placeholder="Demonya" required/>
+                <p class="form-title">Favorite gadget</p>
+                <input type="text" placeholder="Chainsaws" required/>
+            </div>
+            <div class="container-right">
+                <p class="form-title">Type of talent</p>
+                <select name="">
+                    <option value="" selected>Choose a talent</option>
+                    <option value="">Cook</option>
+                    <option value="">Clean</option>
+                    <option value="">Do laundry</option>
+                </select>
+                <p class="form-title">Favorite drink</p>
+                <input type="text" placeholder="Chain breaker" required/>
+                <p class="form-title">Special power</p>
+                <input type="text" placeholder="Chainsaw arms" required/>
+                <p class="form-title">Weapon of choice</p>
+                <input type="text" placeholder="Dual chainsaws" required/>
+                <p class="form-title">Comments</p>
+                <textarea width="100%" height="80px"></textarea>        
+            </div>
         </div>
-        <div class="container-middle">
-
-        </div>
-        <div class="container-right">
-            
-        </div>
-    </div>
+        </form>
 </body>
 </html>
